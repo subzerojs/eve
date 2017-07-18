@@ -20,3 +20,5 @@ class Eve {
     }
   }
 }
+
+export default Eve;
