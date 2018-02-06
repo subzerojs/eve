@@ -14,7 +14,7 @@ class Eve {
   }
   emit(event, ...args) {
     if (Array.isArray(this.listeners[event])) {
-      this.listeners[eve].forEach(handler => handler(...args))
+      this.listeners[event].forEach(handler => handler(...args))
     } else {
       console.log(`Event [ ${event} ] not found`)
     }
